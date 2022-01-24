@@ -1,0 +1,70 @@
+body
+      {
+        background-image: url("https://klike.net/uploads/posts/2019-06/1561182942_2.jpg");
+      }   
+      nav
+      {
+          color: black;
+      }
+      .one {
+        text-align: center;
+        margin-left: -1cm;
+        }      
+      .struct
+      {
+        max-width:1000px;
+        margin: 0 auto;
+        padding:10px; 
+      }
+      h1
+      {
+        color: #FFFFFF;
+      }
+      h2
+      {
+        color: #FFFFFF;
+      }
+      ol
+      {
+        color: #FFFFFF;
+      }
+      label
+      {
+        color: #FFFFFF;
+      }
+      table
+      {
+        color: #FFFFFF;
+      }
+      aside
+      {
+        color: #FFFFFF;
+      }
+      #main-aside-wrapper
+      {
+        flex-direction: row;
+        display: flex;
+      }
+      #main-aside-wrapper main,#main-aside-wrapper aside
+      {
+        background-color: #800000;
+        margin: 10px;
+        padding: 10px;
+      }
+      #main-aside-wrapper
+      {
+        flex: 1;
+        order: 1;
+      }
+      #main-aside-wrapper
+      {
+        flex: 3;
+        order: 2;
+      }
+      @media screen and (min-width: 720px)
+      {
+        #main-aside-wrapper
+        {
+          flex-direction: row;
+        }
+      }
